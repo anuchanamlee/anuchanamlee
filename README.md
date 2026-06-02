@@ -53,8 +53,11 @@
 ### 📊 GitHub at a glance
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=anuchanamlee&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&theme=default" alt="GitHub stats">
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=anuchanamlee&layout=compact&hide_border=true&langs_count=8&theme=default" alt="Top languages">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=anuchanamlee&theme=default" alt="Profile summary">
+</p>
+<p align="center">
+  <img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=anuchanamlee&theme=default" alt="Top languages">
+  <img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=anuchanamlee&theme=default" alt="Most committed languages">
 </p>
 
 ---
