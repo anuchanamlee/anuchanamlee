@@ -1,70 +1,45 @@
-<h1 align="center">Hi, I'm Anucha 👋</h1>
+# Anucha Namlee
 
-<p align="center">
-  <b>4th-year Computer Science student · Freelance Developer 🇹🇭</b><br>
-  I build web apps, automation workflows, and bots — and I'm working toward an AI-agent-first studio.
-</p>
+**Automation & AI backend engineer** · Thailand (UTC+7) · open to full-time roles and remote contracts
 
-<p align="center">
-  <a href="mailto:anucha.namlee.work@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white" alt="Email"></a>
-  <img src="https://img.shields.io/badge/Open%20to-Freelance%20work-2D6A8C?style=flat" alt="Open to freelance">
-  <img src="https://img.shields.io/badge/Based%20in-Thailand-success?style=flat" alt="Thailand">
-</p>
+I build backends that run unattended: scheduled workers, LLM pipelines, and chatbots
+that small businesses use every day. I care about the boring parts that keep them
+alive in production — idempotent jobs, DB-level constraints, tests that prove the
+invariant, and logs you can debug from.
+
+📧 anucha.namlee.work@gmail.com
 
 ---
 
-### 🧭 What I do
+## Featured projects
 
-- 🌐 **Web development** — Next.js + TypeScript apps, end-to-end (UI → API → deploy on Vercel)
-- ⚙️ **Automation** — n8n workflows & LINE chatbots that take repetitive work off people's plates
-- 🤖 **Bots & data** — Python automation, OCR/PDF pipelines, and desktop control tooling
-- 🏗️ **Self-hosting** — Dockerized services for clients on a budget
+| Project | What it does | Stack |
+|---|---|---|
+| [**agent-factory**](https://github.com/anuchanamlee/agent-factory) | One spec file in, a deployed Next.js app out. Six headless `claude -p` phases, each gated by a real command (`next build`, migration, `curl`) — a phase passes on exit code, not on the model's word. Resumable from disk. | Bash · Claude Code · Docker |
+| [**post-scheduler**](https://github.com/anuchanamlee/post-scheduler) | Scheduled Facebook + Instagram posting for shops: background worker, encrypted page tokens, AI caption drafts in each page's tone, carousel up to 10 images. | Next.js · PostgreSQL · Docker |
+| [**typhoon_ocr_api**](https://github.com/anuchanamlee/typhoon_ocr_api) | Thai-language OCR API for images and multi-page PDFs on a self-hosted LLM (Typhoon OCR via Ollama). Bounded parallelism, upload limits, per-page timing. | Python · FastAPI · Ollama |
+| [**ai-image-edit**](https://github.com/anuchanamlee/ai-image-edit) | Web app + n8n workflows for Gemini image editing: API-key auth, prompt presets, usage log to Google Sheets. | Next.js · n8n · Gemini |
+| [**pdf_JPG**](https://github.com/anuchanamlee/pdf_JPG) | PDF → JPG API built not to fall over: pixel caps per page, disk-spilling ZIP, encrypted-PDF detection. | Python · FastAPI · PyMuPDF |
 
-### 🔭 Currently working on
+## Client work (private code — summaries only)
 
-- An **AI-agent operations layer** that runs my freelance projects (planning, status, automation)
-- **LINE chatbot + booking automation** for small businesses (n8n)
-- A **license-key SaaS** for my own desktop tools
-- A **self-hosted photo/asset platform** for a client
+- **LINE booking chatbot for service businesses** — 12 n8n workflows: booking,
+  rescheduling, FAQ replies, human handoff, back-office admin. Sold as a template,
+  one isolated instance per client.
+- **Business website on a VPS** — Next.js + SQLite, migrations safe under concurrent
+  start-up, uptime monitoring.
+- **License-key service** — issue / validate / move licenses for desktop software
+  (Vercel + Supabase), with a customer self-service page.
 
-### 🎯 Where I'm headed
+## Stack
 
-> Automate everything that can be automated. The long game: a studio where **AI agents do the work** end-to-end, plus a SaaS of my own.
+**Backend:** TypeScript, Node.js, Python, FastAPI, Next.js API routes
+**Data:** PostgreSQL, SQLite, Supabase, Firebase
+**Automation & AI:** n8n, LINE Messaging API, Claude, Gemini, Ollama, OCR
+**Ops:** Docker, Linux VPS, Vercel, GitHub Actions
 
----
+## How I work
 
-### 🛠️ Tech I reach for
-
-<p>
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white" alt="TypeScript">
-  <img src="https://img.shields.io/badge/Next.js-000000?style=flat&logo=nextdotjs&logoColor=white" alt="Next.js">
-  <img src="https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black" alt="React">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python">
-  <img src="https://img.shields.io/badge/Node.js-5FA04E?style=flat&logo=nodedotjs&logoColor=white" alt="Node.js">
-  <img src="https://img.shields.io/badge/n8n-EA4B71?style=flat&logo=n8n&logoColor=white" alt="n8n">
-  <img src="https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=flat&logo=tailwindcss&logoColor=white" alt="Tailwind CSS">
-  <img src="https://img.shields.io/badge/Firebase-DD2C00?style=flat&logo=firebase&logoColor=white" alt="Firebase">
-  <img src="https://img.shields.io/badge/Flutter-02569B?style=flat&logo=flutter&logoColor=white" alt="Flutter">
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white" alt="Docker">
-</p>
-
----
-
-### 📊 GitHub at a glance
-
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=anuchanamlee&theme=default" alt="Profile summary">
-</p>
-<p align="center">
-  <img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=anuchanamlee&theme=default" alt="Top languages">
-  <img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=anuchanamlee&theme=default" alt="Most committed languages">
-</p>
-
----
-
-### 📫 Reach me
-
-- 📧 **Email:** anucha.namlee.work@gmail.com
-- 💼 Open to freelance: **web apps · automation (n8n) · bots · data tooling**
-
-<sub>💡 Most of my client work lives in private repos. The public ones below are personal projects and experiments.</sub>
+- Business rules live in the database (UNIQUE / CHECK / transactions), not only in app code.
+- Anything that can be retried is idempotent.
+- "Done" means a test or a command proved it — not that it looked fine once.
