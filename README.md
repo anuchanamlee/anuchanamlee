@@ -16,10 +16,17 @@ invariant, and logs you can debug from.
 | Project | What it does | Stack |
 |---|---|---|
 | [**agent-factory**](https://github.com/anuchanamlee/agent-factory) | One spec file in, a deployed Next.js app out. Six headless `claude -p` phases, each gated by a real command (`next build`, migration, `curl`) — a phase passes on exit code, not on the model's word. Resumable from disk. | Bash · Claude Code · Docker |
-| [**post-scheduler**](https://github.com/anuchanamlee/post-scheduler) | Scheduled Facebook + Instagram posting for shops: background worker, encrypted page tokens, AI caption drafts in each page's tone, carousel up to 10 images. | Next.js · PostgreSQL · Docker |
+| [**post-scheduler**](https://github.com/anuchanamlee/post-scheduler) | Scheduled Facebook + Instagram posting for shops: worker that claims jobs with `SKIP LOCKED`, idempotent retries, AES-GCM encrypted tokens, AI captions and images with cost caps. | Next.js · PostgreSQL · Docker |
+| [**Buddy-pay**](https://github.com/anuchanamlee/Buddy-pay) | Split a restaurant bill to the satang and get a PromptPay QR per person. Integer money math, CI, unit + E2E tests, [live demo](https://buddy-pay-eta.vercel.app). | Next.js · TypeScript · Firebase |
 | [**typhoon_ocr_api**](https://github.com/anuchanamlee/typhoon_ocr_api) | Thai-language OCR API for images and multi-page PDFs on a self-hosted LLM (Typhoon OCR via Ollama). Bounded parallelism, upload limits, per-page timing. | Python · FastAPI · Ollama |
-| [**ai-image-edit**](https://github.com/anuchanamlee/ai-image-edit) | Web app + n8n workflows for Gemini image editing: API-key auth, prompt presets, usage log to Google Sheets. | Next.js · n8n · Gemini |
-| [**pdf_JPG**](https://github.com/anuchanamlee/pdf_JPG) | PDF → JPG API built not to fall over: pixel caps per page, disk-spilling ZIP, encrypted-PDF detection. | Python · FastAPI · PyMuPDF |
+| [**ai-image-generation**](https://github.com/anuchanamlee/ai-image-generation) | Image generation as a service: admin-defined prompt tasks, Gemini via n8n, HMAC-signed admin sessions with tests. | Next.js · Prisma · n8n · Gemini |
+| [**license-key-admin-demo**](https://github.com/anuchanamlee/license-key-admin-demo) | Admin panel for software license keys plus a customer self-service machine move. Runs on a built-in mock backend. | Next.js · TypeScript |
+
+More: [gemini-image-edit](https://github.com/anuchanamlee/gemini-image-edit) (n8n + Gemini) ·
+[pdf_JPG](https://github.com/anuchanamlee/pdf_JPG) (FastAPI) ·
+[n8n-docker](https://github.com/anuchanamlee/n8n-docker) ·
+[slipledger](https://github.com/anuchanamlee/slipledger) (Flutter) ·
+[portfolio-site](https://github.com/anuchanamlee/portfolio-site)
 
 ## Client work (private code — summaries only)
 
