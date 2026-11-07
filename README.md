@@ -1,6 +1,6 @@
 # Anucha Namlee
 
-**Automation & AI backend engineer** · Thailand (UTC+7) · open to full-time roles and remote contracts
+**Backend & Automation Developer** · Computer Science graduate (RMUTI, 2026) · Nakhon Ratchasima, Thailand (UTC+7) · open to full-time roles and remote contracts
 
 I build backends that run unattended: scheduled workers, LLM pipelines, and chatbots
 that small businesses use every day. I care about the boring parts that keep them
@@ -28,13 +28,20 @@ More: [gemini-image-edit](https://github.com/anuchanamlee/gemini-image-edit) (n8
 [slipledger](https://github.com/anuchanamlee/slipledger) (Flutter) ·
 [portfolio-site](https://github.com/anuchanamlee/portfolio-site)
 
+## Experience
+
+- **Freelance developer, Fastwork** (Jan 2025 – present): web apps, back offices and LINE chatbots for small businesses.
+- **Internship Developer, บริษัท สิทธิประชา คอร์ปอเรชั่น จำกัด** (Nov 2024 – Feb 2025, full-time): REST APIs with NestJS (JWT login, email OTP, OCR integration).
+
 ## Client work (private code — summaries only)
 
-- **LINE booking chatbot for service businesses** — 12 n8n workflows: booking,
-  rescheduling, FAQ replies, human handoff, back-office admin. Sold as a template,
-  one isolated instance per client.
-- **Business website on a VPS** — Next.js + SQLite, migrations safe under concurrent
-  start-up, uptime monitoring.
+- **LINE booking chatbot for a home-cleaning shop** — 30+ n8n workflows: booking,
+  availability, team assignment, payment slips, AI replies, back-office admin
+  (pre-launch; the slip check and AI replies are not yet tested against live services).
+  Built as a template, one isolated instance per client. A separate 12-workflow
+  starter template is also kept.
+- **Business website** — Next.js + SQLite on Hostinger, migrations safe under
+  concurrent start-up, uptime monitoring.
 - **License-key service** — issue / validate / move licenses for desktop software
   (Vercel + Supabase), with a customer self-service page.
 
