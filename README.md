@@ -26,7 +26,7 @@ More: [gemini-image-edit](https://github.com/anuchanamlee/gemini-image-edit) (n8
 [pdf_JPG](https://github.com/anuchanamlee/pdf_JPG) (FastAPI) ·
 [n8n-docker](https://github.com/anuchanamlee/n8n-docker) ·
 [slipledger](https://github.com/anuchanamlee/slipledger) (Flutter) ·
-[portfolio-site](https://github.com/anuchanamlee/portfolio-site)
+[live portfolio](https://portfolio-sigma-seven-k509pz4cai.vercel.app)
 
 ## Experience
 
